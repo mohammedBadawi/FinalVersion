@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/Backdound"
+    tools:context="cat.code.com.infinitour.Activities.user_interface">
+
+   <android.support.v7.widget.AppCompatAutoCompleteTextView
+       android:id="@+id/auto_select_country"
+       android:layout_width="match_parent"
+       android:textSize="20sp"
+       android:textColorHint="@color/Text2"
+       android:textColor="@color/Text2"
+       android:layout_height="wrap_content"
+       android:completionThreshold="1"
+       android:hint="Select Your Destination" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Select"
+       android:textSize="20sp"
+       android:textColorHint="@color/Text"
+       android:background="@drawable/rounded_button"
+       android:id="@+id/btnbtn"
+       android:layout_marginTop="30dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Select City"
+       android:textColor="@color/Text2"
+       android:textSize="20sp"
+       android:id="@+id/tv_select_city"
+       android:visibility="invisible"
+       android:layout_marginTop="20dp"/>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lv_cities"
+    android:layout_marginTop="20dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+</ListView>
+
+
+
+
+</LinearLayout>

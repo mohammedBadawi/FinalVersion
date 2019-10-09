@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006db3</color>
+    <color name="colorPrimaryDark">#63ccff</color>
+    <color name="colorAccent">#63ccff</color>
+
+
+    <color name="Rest">#006db3</color>
+    <color name="Backdound2">#039be5</color>
+    <color name="Backdound1">#ffffff</color>
+    <color name="Backdound3">#bcbcbc</color>
+    <color name="Backdound">#eeeeee</color>
+    <color name="Text">#FFFFFF</color>
+    <color name="Text2">#000000</color>
+    <color name="Label">#006db3</color>
+
+</resources>
